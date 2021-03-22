@@ -1694,32 +1694,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/sang/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\visual\\DictionaryApp\\DictionaryApp\\DictionaryApp.csproj",
+      "projectUniqueName": "/Users/sang/Documents/GitHub/DictionaryApp_XamarinRemake/DictionaryApp.csproj",
       "projectName": "DictionaryApp",
-      "projectPath": "E:\\Project\\visual\\DictionaryApp\\DictionaryApp\\DictionaryApp.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\visual\\DictionaryApp\\DictionaryApp\\obj\\",
+      "projectPath": "/Users/sang/Documents/GitHub/DictionaryApp_XamarinRemake/DictionaryApp.csproj",
+      "packagesPath": "/Users/sang/.nuget/packages/",
+      "outputPath": "/Users/sang/Documents/GitHub/DictionaryApp_XamarinRemake/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/sang/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
