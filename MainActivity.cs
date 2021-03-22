@@ -3,6 +3,8 @@ using Android.OS;
 using Android.Runtime;
 using AndroidX.AppCompat.App;
 using Android.Widget;
+using System.Collections.Generic;
+using System.Net.Http;
 
 namespace DictionaryApp
 {
@@ -21,6 +23,7 @@ namespace DictionaryApp
 
             edtWordSearch.TextChanged += (sender, e) =>
             {
+               
                 txtShowDef.Text = edtWordSearch.Text;
             };
         }
@@ -30,5 +33,14 @@ namespace DictionaryApp
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+    }
+    public class TransactionReques<T>
+    {
+        public string pronunciation { get; set; }
+        
+    }
+    public class Word
+    {
+        public string pronunciation_word { get; set; }
     }
 }
